@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "description": "task 1",
+    "main": "index.js",
+    "author": "uttam sutariya",
+    "license": "MIT",
+    "dependencies": {
+        "cloudinary": "^1.30.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-async-handler": "^1.2.0",
+        "express-fileupload": "^1.4.0",
+        "mongoose": "^6.4.3",
+        "morgan": "^1.10.0",
+        "validator": "^13.7.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
